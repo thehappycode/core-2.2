@@ -1,0 +1,8 @@
+C:\Users\Admin\source\repos\ECMServer\ECM.DB\bin\Debug\netcoreapp2.2\ECM.DB.deps.json
+C:\Users\Admin\source\repos\ECMServer\ECM.DB\bin\Debug\netcoreapp2.2\ECM.DB.dll
+C:\Users\Admin\source\repos\ECMServer\ECM.DB\bin\Debug\netcoreapp2.2\ECM.DB.pdb
+C:\Users\Admin\source\repos\ECMServer\ECM.DB\obj\Debug\netcoreapp2.2\ECM.DB.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\ECMServer\ECM.DB\obj\Debug\netcoreapp2.2\ECM.DB.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\ECMServer\ECM.DB\obj\Debug\netcoreapp2.2\ECM.DB.AssemblyInfo.cs
+C:\Users\Admin\source\repos\ECMServer\ECM.DB\obj\Debug\netcoreapp2.2\ECM.DB.dll
+C:\Users\Admin\source\repos\ECMServer\ECM.DB\obj\Debug\netcoreapp2.2\ECM.DB.pdb

@@ -1,0 +1,75 @@
+{
+  "ReRoutes": [
+    // ECMServer Routers
+    { // start
+      "DownstreamPathTemplate": "/api/values/{id}",
+      "DownstreamHttpMethod": "GET",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44316"
+        }
+      ],
+      "UpstreamPathTemplate": "/ECMServer/Values/{id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "JwtBearerKey",
+        "AllowedScopes": []
+      },
+      "Key": "ECMServer/Values/GetById"
+    }, // end
+    { // start
+      "DownstreamPathTemplate": "/api/values",
+      "DownstreamHttpMethod": "POST",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44316"
+        }
+      ],
+      "UpstreamPathTemplate": "/ECMServer/Values",
+      "UpstreamHttpMethod": [ "Post" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "JwtBearerKey",
+        "AllowedScopes": []
+      },
+      "Key": "ECMServer/Values/Post"
+    }, // end
+
+    // BOSServer Routers
+    { // start
+      "DownstreamPathTemplate": "/api/values/{id}",
+      "DownstreamHttpMethod": "GET",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44340"
+        }
+      ],
+      "UpstreamPathTemplate": "/BOSServer/Values/{id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "JwtBearerKey",
+        "AllowedScopes": []
+      },
+      "Key": "BOSServer/Values/GetById"
+    } // end
+  ],
+
+  // Aggregates
+  "Aggregates": [
+    {
+      "ReRouteKeys": [
+        "ECMServer/Values/GetById",
+        "BOSServer/Values/GetById"
+      ],
+      "UpstreamPathTemplate": "/BOSANDECM/{id}"
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:44331/"
+  }
+}

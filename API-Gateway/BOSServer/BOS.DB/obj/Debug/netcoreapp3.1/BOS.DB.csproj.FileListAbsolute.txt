@@ -1,0 +1,5 @@
+C:\Users\Admin\source\repos\BOSServer\BOS.DB\bin\Debug\netcoreapp3.1\BOS.DB.deps.json
+C:\Users\Admin\source\repos\BOSServer\BOS.DB\bin\Debug\netcoreapp3.1\BOS.DB.dll
+C:\Users\Admin\source\repos\BOSServer\BOS.DB\obj\Debug\netcoreapp3.1\BOS.DB.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\BOSServer\BOS.DB\obj\Debug\netcoreapp3.1\BOS.DB.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\BOSServer\BOS.DB\obj\Debug\netcoreapp3.1\BOS.DB.AssemblyInfo.cs

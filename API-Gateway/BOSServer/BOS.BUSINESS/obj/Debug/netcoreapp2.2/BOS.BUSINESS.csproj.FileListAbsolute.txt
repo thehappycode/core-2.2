@@ -1,0 +1,11 @@
+C:\Users\Admin\source\repos\BOSServer\BOS.BUSINESS\bin\Debug\netcoreapp2.2\BOS.BUSINESS.deps.json
+C:\Users\Admin\source\repos\BOSServer\BOS.BUSINESS\bin\Debug\netcoreapp2.2\BOS.BUSINESS.dll
+C:\Users\Admin\source\repos\BOSServer\BOS.BUSINESS\bin\Debug\netcoreapp2.2\BOS.BUSINESS.pdb
+C:\Users\Admin\source\repos\BOSServer\BOS.BUSINESS\bin\Debug\netcoreapp2.2\BOS.DB.dll
+C:\Users\Admin\source\repos\BOSServer\BOS.BUSINESS\bin\Debug\netcoreapp2.2\BOS.DB.pdb
+C:\Users\Admin\source\repos\BOSServer\BOS.BUSINESS\obj\Debug\netcoreapp2.2\BOS.BUSINESS.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\BOSServer\BOS.BUSINESS\obj\Debug\netcoreapp2.2\BOS.BUSINESS.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\BOSServer\BOS.BUSINESS\obj\Debug\netcoreapp2.2\BOS.BUSINESS.AssemblyInfo.cs
+C:\Users\Admin\source\repos\BOSServer\BOS.BUSINESS\obj\Debug\netcoreapp2.2\BOS.BUSINESS.csproj.CopyComplete
+C:\Users\Admin\source\repos\BOSServer\BOS.BUSINESS\obj\Debug\netcoreapp2.2\BOS.BUSINESS.dll
+C:\Users\Admin\source\repos\BOSServer\BOS.BUSINESS\obj\Debug\netcoreapp2.2\BOS.BUSINESS.pdb

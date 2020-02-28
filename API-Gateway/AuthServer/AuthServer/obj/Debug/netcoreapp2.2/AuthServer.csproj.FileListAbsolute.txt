@@ -1,0 +1,16 @@
+E:\WORK\Source\Research\backend\API-Gateway\AuthServer\AuthServer\bin\Debug\netcoreapp2.2\appsettings.Development.json
+E:\WORK\Source\Research\backend\API-Gateway\AuthServer\AuthServer\bin\Debug\netcoreapp2.2\appsettings.json
+E:\WORK\Source\Research\backend\API-Gateway\AuthServer\AuthServer\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+E:\WORK\Source\Research\backend\API-Gateway\AuthServer\AuthServer\bin\Debug\netcoreapp2.2\AuthServer.deps.json
+E:\WORK\Source\Research\backend\API-Gateway\AuthServer\AuthServer\bin\Debug\netcoreapp2.2\AuthServer.runtimeconfig.json
+E:\WORK\Source\Research\backend\API-Gateway\AuthServer\AuthServer\bin\Debug\netcoreapp2.2\AuthServer.runtimeconfig.dev.json
+E:\WORK\Source\Research\backend\API-Gateway\AuthServer\AuthServer\bin\Debug\netcoreapp2.2\AuthServer.dll
+E:\WORK\Source\Research\backend\API-Gateway\AuthServer\AuthServer\bin\Debug\netcoreapp2.2\AuthServer.pdb
+E:\WORK\Source\Research\backend\API-Gateway\AuthServer\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.csprojAssemblyReference.cache
+E:\WORK\Source\Research\backend\API-Gateway\AuthServer\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.RazorAssemblyInfo.cache
+E:\WORK\Source\Research\backend\API-Gateway\AuthServer\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.RazorAssemblyInfo.cs
+E:\WORK\Source\Research\backend\API-Gateway\AuthServer\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.AssemblyInfoInputs.cache
+E:\WORK\Source\Research\backend\API-Gateway\AuthServer\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.AssemblyInfo.cs
+E:\WORK\Source\Research\backend\API-Gateway\AuthServer\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.RazorTargetAssemblyInfo.cache
+E:\WORK\Source\Research\backend\API-Gateway\AuthServer\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.dll
+E:\WORK\Source\Research\backend\API-Gateway\AuthServer\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.pdb

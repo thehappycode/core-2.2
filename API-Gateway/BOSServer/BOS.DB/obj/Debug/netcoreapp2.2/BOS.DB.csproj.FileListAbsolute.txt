@@ -1,0 +1,7 @@
+C:\Users\Admin\source\repos\BOSServer\BOS.DB\bin\Debug\netcoreapp2.2\BOS.DB.deps.json
+C:\Users\Admin\source\repos\BOSServer\BOS.DB\bin\Debug\netcoreapp2.2\BOS.DB.dll
+C:\Users\Admin\source\repos\BOSServer\BOS.DB\bin\Debug\netcoreapp2.2\BOS.DB.pdb
+C:\Users\Admin\source\repos\BOSServer\BOS.DB\obj\Debug\netcoreapp2.2\BOS.DB.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\BOSServer\BOS.DB\obj\Debug\netcoreapp2.2\BOS.DB.AssemblyInfo.cs
+C:\Users\Admin\source\repos\BOSServer\BOS.DB\obj\Debug\netcoreapp2.2\BOS.DB.dll
+C:\Users\Admin\source\repos\BOSServer\BOS.DB\obj\Debug\netcoreapp2.2\BOS.DB.pdb

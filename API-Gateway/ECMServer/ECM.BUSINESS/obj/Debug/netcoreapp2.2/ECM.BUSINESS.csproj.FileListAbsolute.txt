@@ -1,0 +1,11 @@
+C:\Users\Admin\source\repos\ECMServer\ECM.BUSINESS\bin\Debug\netcoreapp2.2\ECM.BUSINESS.deps.json
+C:\Users\Admin\source\repos\ECMServer\ECM.BUSINESS\bin\Debug\netcoreapp2.2\ECM.BUSINESS.dll
+C:\Users\Admin\source\repos\ECMServer\ECM.BUSINESS\bin\Debug\netcoreapp2.2\ECM.BUSINESS.pdb
+C:\Users\Admin\source\repos\ECMServer\ECM.BUSINESS\bin\Debug\netcoreapp2.2\ECM.DB.dll
+C:\Users\Admin\source\repos\ECMServer\ECM.BUSINESS\bin\Debug\netcoreapp2.2\ECM.DB.pdb
+C:\Users\Admin\source\repos\ECMServer\ECM.BUSINESS\obj\Debug\netcoreapp2.2\ECM.BUSINESS.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\ECMServer\ECM.BUSINESS\obj\Debug\netcoreapp2.2\ECM.BUSINESS.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\ECMServer\ECM.BUSINESS\obj\Debug\netcoreapp2.2\ECM.BUSINESS.AssemblyInfo.cs
+C:\Users\Admin\source\repos\ECMServer\ECM.BUSINESS\obj\Debug\netcoreapp2.2\ECM.BUSINESS.csproj.CopyComplete
+C:\Users\Admin\source\repos\ECMServer\ECM.BUSINESS\obj\Debug\netcoreapp2.2\ECM.BUSINESS.dll
+C:\Users\Admin\source\repos\ECMServer\ECM.BUSINESS\obj\Debug\netcoreapp2.2\ECM.BUSINESS.pdb

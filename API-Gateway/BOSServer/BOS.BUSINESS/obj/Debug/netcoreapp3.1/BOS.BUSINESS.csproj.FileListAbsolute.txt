@@ -1,0 +1,5 @@
+C:\Users\Admin\source\repos\BOSServer\BOS.BUSINESS\bin\Debug\netcoreapp3.1\BOS.BUSINESS.deps.json
+C:\Users\Admin\source\repos\BOSServer\BOS.BUSINESS\bin\Debug\netcoreapp3.1\BOS.BUSINESS.dll
+C:\Users\Admin\source\repos\BOSServer\BOS.BUSINESS\obj\Debug\netcoreapp3.1\BOS.BUSINESS.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\BOSServer\BOS.BUSINESS\obj\Debug\netcoreapp3.1\BOS.BUSINESS.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\BOSServer\BOS.BUSINESS\obj\Debug\netcoreapp3.1\BOS.BUSINESS.AssemblyInfo.cs
