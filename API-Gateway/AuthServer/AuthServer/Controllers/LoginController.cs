@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AuthServer.Helper;
 using AuthServer.Services;
 using AuthServer.Sessions;
 using Microsoft.AspNetCore.Authorization;
@@ -14,11 +15,12 @@ namespace AuthServer.Controllers
     [ApiController]
     public class LoginController : ControllerBase
     {
-        LoginService _loginService;
+        LoginService _loginService = new LoginService();
+        private readonly ApplicationSetting _applicationSetting;
 
-        public LoginController(IConfiguration iconfig)
+        public LoginController(ApplicationSetting applicationSetting)
         {
-            _loginService = new LoginService(iconfig);
+            _applicationSetting = applicationSetting;
         }
 
         // POST: api/Login
@@ -31,7 +33,7 @@ namespace AuthServer.Controllers
             dynamic result = null;
             SessionManager.DoWork(ss =>
             {
-                result = _loginService.Login(ss, email, password);
+                result = _loginService.Login(ss, email, password, _applicationSetting);
             });
             if (result != null)
             {

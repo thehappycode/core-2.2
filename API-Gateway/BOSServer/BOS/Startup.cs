@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using BOS.DB.AutoMapper;
 using AutoMapper;
+using BOS.BUSINESS.Helper;
 
 namespace BOS
 {
@@ -24,6 +25,14 @@ namespace BOS
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            // applicationSetting Configurataion.
+            var applicationSetting = new ApplicationSetting();
+            Configuration.Bind("ApplicationSetting", applicationSetting);
+            services.AddSingleton(applicationSetting);
+            //services.Configure<ApplicationSetting>(Configuration.GetSection("ApplicationSetting"));
+            
+
             // JWT Configurations
             services.AddAuthentication
                 (JwtBearerDefaults.AuthenticationScheme)
@@ -35,9 +44,9 @@ namespace BOS
                         ValidateAudience = true,
                         ValidateLifetime = true,
                         ValidateIssuerSigningKey = true,
-                        ValidIssuer = Configuration["Jwt:Issuer"],
-                        ValidAudience = Configuration["Jwt:Audience"],
-                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:Key"])),
+                        ValidIssuer = applicationSetting.Jwt.Issuer,
+                        ValidAudience = applicationSetting.Jwt.Audience,
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(applicationSetting.Jwt.Key)),
                         ClockSkew = TimeSpan.Zero, //the default for this setting is 5 minutes
                         RequireExpirationTime = true
                     };
@@ -50,6 +59,11 @@ namespace BOS
             });
             IMapper mapper = mappingConfig.CreateMapper();
             services.AddSingleton(mapper);
+
+            // AddHttpClient configuration
+            services.AddHttpClient();
+
+            
 
             // Default
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);

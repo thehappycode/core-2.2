@@ -9,54 +9,53 @@ namespace ECM.BUSINESS.Services
 {
     public class TemplateService : ITemplateService
     {
-        public dynamic Delte<T>(ISession ss, Guid id)
+        public bool Delte<T>(ISession ss, Guid id)
         {
             try
             {
                 ss.Delete(id);
-                return new { status = 200, message = "success", data = new { } };
+                return true;
             }
             catch (Exception ex)
             {
-                return new { status = 400, message = "error", data = ex.Message };
+                return false;
             }
         }
 
-        public dynamic GetAll<T>(ISession ss)
+        public dynamic Get<T>(ISession ss, int pageIndex, int itemsPerPage)
         {
-            try
-            {
-                var results = ss.Query<T>().ToList();
-                return new { status = 200, message = "success", data = results };
-            }
-            catch (Exception ex)
-            {
-                return new { status = 400, message = "error", data = ex.Message };
-            }
+            dynamic result = null;
+            var datas = ss.Query<T>().ToList();
+            var count = datas.Count();
+            var total = count % itemsPerPage == 0 ? count / itemsPerPage : count / itemsPerPage + 1;
+            var data =  datas.Skip(itemsPerPage * pageIndex).Take(itemsPerPage);
+            result.total = total;
+            result.data = data;
+            return result;
         }
 
-        public dynamic GetById<T>(ISession ss, Guid id)
+        public List<T> GetAll<T>(ISession ss)
         {
-            try
-            {
-                var result = ss.Get<T>(id);
-                return new { status = 200, message = "success", data = result };
-            }
-            catch (Exception ex)
-            {
-                return new { status = 400, message = "error", data = ex.Message };
-            }
+            var results = ss.Query<T>().ToList();
+            return results;
         }
-        public dynamic SaveOrUpdate<T>(ISession ss, T item)
+
+        public T GetById<T>(ISession ss, Guid id)
+        {
+            var result = ss.Get<T>(id);
+            return result;
+
+        }
+        public bool SaveOrUpdate<T>(ISession ss, T item)
         {
             try
             {
                 ss.SaveOrUpdate(item);
-                return new { status = 200, message = "success", data = new { } };
+                return true;
             }
             catch (Exception ex)
             {
-                return new { status = 400, message = "error", data = ex.Message };
+                return false;
             }
         }
 

@@ -5,3 +5,11 @@ C:\Users\Admin\source\repos\BOSServer\BOS.DB\obj\Debug\netcoreapp2.2\BOS.DB.Asse
 C:\Users\Admin\source\repos\BOSServer\BOS.DB\obj\Debug\netcoreapp2.2\BOS.DB.AssemblyInfo.cs
 C:\Users\Admin\source\repos\BOSServer\BOS.DB\obj\Debug\netcoreapp2.2\BOS.DB.dll
 C:\Users\Admin\source\repos\BOSServer\BOS.DB\obj\Debug\netcoreapp2.2\BOS.DB.pdb
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\BOSServer\BOS.DB\bin\Debug\netcoreapp2.2\BOS.DB.deps.json
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\BOSServer\BOS.DB\bin\Debug\netcoreapp2.2\BOS.DB.dll
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\BOSServer\BOS.DB\bin\Debug\netcoreapp2.2\BOS.DB.pdb
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\BOSServer\BOS.DB\obj\Debug\netcoreapp2.2\BOS.DB.csprojAssemblyReference.cache
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\BOSServer\BOS.DB\obj\Debug\netcoreapp2.2\BOS.DB.AssemblyInfoInputs.cache
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\BOSServer\BOS.DB\obj\Debug\netcoreapp2.2\BOS.DB.AssemblyInfo.cs
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\BOSServer\BOS.DB\obj\Debug\netcoreapp2.2\BOS.DB.dll
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\BOSServer\BOS.DB\obj\Debug\netcoreapp2.2\BOS.DB.pdb

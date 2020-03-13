@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\APIGateway\\APIGateway\\APIGateway.csproj": {}
+    "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\APIGateway\\APIGateway\\APIGateway.csproj": {}
   },
   "projects": {
-    "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\APIGateway\\APIGateway\\APIGateway.csproj": {
+    "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\APIGateway\\APIGateway\\APIGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\APIGateway\\APIGateway\\APIGateway.csproj",
+        "projectUniqueName": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\APIGateway\\APIGateway\\APIGateway.csproj",
         "projectName": "APIGateway",
-        "projectPath": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\APIGateway\\APIGateway\\APIGateway.csproj",
+        "projectPath": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\APIGateway\\APIGateway\\APIGateway.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\APIGateway\\APIGateway\\obj\\",
+        "outputPath": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\APIGateway\\APIGateway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

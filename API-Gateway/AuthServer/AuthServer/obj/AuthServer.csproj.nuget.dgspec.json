@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\AuthServer\\AuthServer\\AuthServer.csproj": {}
+    "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\AuthServer\\AuthServer\\AuthServer.csproj": {}
   },
   "projects": {
-    "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\AuthServer\\AuthServer\\AuthServer.csproj": {
+    "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\AuthServer\\AuthServer\\AuthServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\AuthServer\\AuthServer\\AuthServer.csproj",
+        "projectUniqueName": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\AuthServer\\AuthServer\\AuthServer.csproj",
         "projectName": "AuthServer",
-        "projectPath": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\AuthServer\\AuthServer\\AuthServer.csproj",
+        "projectPath": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\AuthServer\\AuthServer\\AuthServer.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\AuthServer\\AuthServer\\obj\\",
+        "outputPath": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\AuthServer\\AuthServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

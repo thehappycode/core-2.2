@@ -7,10 +7,11 @@ namespace BOS.BUSINESS.Infrastructures
 {
     interface ITemplateService
     {
-        dynamic GetById<T>(ISession ss, Guid id);
-        dynamic GetAll<T>(ISession ss);
+        bool Delete<T>(ISession ss, Guid id);
+        dynamic Get<T>(ISession ss, int pageIndex, int itemsPerPage);
+        T GetById<T>(ISession ss, Guid id);
+        List<T> GetAll<T>(ISession ss);
         dynamic Validate<T>(ISession ss, T item);
-        dynamic SaveOrUpdate<T>(ISession ss, T item);
-        dynamic Delte<T>(ISession ss, Guid id);
+        bool SaveOrUpdate<T>(ISession ss, T item);
     }
 }

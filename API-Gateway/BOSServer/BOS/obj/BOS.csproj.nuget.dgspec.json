@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\BOSServer\\BOS\\BOS.csproj": {}
+    "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\BOSServer\\BOS\\BOS.csproj": {}
   },
   "projects": {
-    "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\BOSServer\\BOS.BUSINESS\\BOS.BUSINESS.csproj": {
+    "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\BOSServer\\BOS.BUSINESS\\BOS.BUSINESS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\BOSServer\\BOS.BUSINESS\\BOS.BUSINESS.csproj",
+        "projectUniqueName": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\BOSServer\\BOS.BUSINESS\\BOS.BUSINESS.csproj",
         "projectName": "BOS.BUSINESS",
-        "projectPath": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\BOSServer\\BOS.BUSINESS\\BOS.BUSINESS.csproj",
+        "projectPath": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\BOSServer\\BOS.BUSINESS\\BOS.BUSINESS.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\BOSServer\\BOS.BUSINESS\\obj\\",
+        "outputPath": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\BOSServer\\BOS.BUSINESS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\BOSServer\\BOS.DB\\BOS.DB.csproj": {
-                "projectPath": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\BOSServer\\BOS.DB\\BOS.DB.csproj"
+              "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\BOSServer\\BOS.DB\\BOS.DB.csproj": {
+                "projectPath": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\BOSServer\\BOS.DB\\BOS.DB.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\BOSServer\\BOS.DB\\BOS.DB.csproj": {
+    "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\BOSServer\\BOS.DB\\BOS.DB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\BOSServer\\BOS.DB\\BOS.DB.csproj",
+        "projectUniqueName": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\BOSServer\\BOS.DB\\BOS.DB.csproj",
         "projectName": "BOS.DB",
-        "projectPath": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\BOSServer\\BOS.DB\\BOS.DB.csproj",
+        "projectPath": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\BOSServer\\BOS.DB\\BOS.DB.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\BOSServer\\BOS.DB\\obj\\",
+        "outputPath": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\BOSServer\\BOS.DB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -144,14 +144,14 @@
         }
       }
     },
-    "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\BOSServer\\BOS\\BOS.csproj": {
+    "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\BOSServer\\BOS\\BOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\BOSServer\\BOS\\BOS.csproj",
+        "projectUniqueName": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\BOSServer\\BOS\\BOS.csproj",
         "projectName": "BOS",
-        "projectPath": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\BOSServer\\BOS\\BOS.csproj",
+        "projectPath": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\BOSServer\\BOS\\BOS.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\BOSServer\\BOS\\obj\\",
+        "outputPath": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\BOSServer\\BOS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -170,8 +170,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\BOSServer\\BOS.BUSINESS\\BOS.BUSINESS.csproj": {
-                "projectPath": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\BOSServer\\BOS.BUSINESS\\BOS.BUSINESS.csproj"
+              "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\BOSServer\\BOS.BUSINESS\\BOS.BUSINESS.csproj": {
+                "projectPath": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\BOSServer\\BOS.BUSINESS\\BOS.BUSINESS.csproj"
               }
             }
           }
@@ -201,6 +201,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
             }
           },
           "imports": [

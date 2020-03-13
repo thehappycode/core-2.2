@@ -9,3 +9,14 @@ C:\Users\Admin\source\repos\BOSServer\BOS.BUSINESS\obj\Debug\netcoreapp2.2\BOS.B
 C:\Users\Admin\source\repos\BOSServer\BOS.BUSINESS\obj\Debug\netcoreapp2.2\BOS.BUSINESS.csproj.CopyComplete
 C:\Users\Admin\source\repos\BOSServer\BOS.BUSINESS\obj\Debug\netcoreapp2.2\BOS.BUSINESS.dll
 C:\Users\Admin\source\repos\BOSServer\BOS.BUSINESS\obj\Debug\netcoreapp2.2\BOS.BUSINESS.pdb
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\BOSServer\BOS.BUSINESS\bin\Debug\netcoreapp2.2\BOS.BUSINESS.deps.json
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\BOSServer\BOS.BUSINESS\bin\Debug\netcoreapp2.2\BOS.BUSINESS.dll
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\BOSServer\BOS.BUSINESS\bin\Debug\netcoreapp2.2\BOS.BUSINESS.pdb
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\BOSServer\BOS.BUSINESS\bin\Debug\netcoreapp2.2\BOS.DB.dll
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\BOSServer\BOS.BUSINESS\bin\Debug\netcoreapp2.2\BOS.DB.pdb
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\BOSServer\BOS.BUSINESS\obj\Debug\netcoreapp2.2\BOS.BUSINESS.csprojAssemblyReference.cache
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\BOSServer\BOS.BUSINESS\obj\Debug\netcoreapp2.2\BOS.BUSINESS.AssemblyInfoInputs.cache
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\BOSServer\BOS.BUSINESS\obj\Debug\netcoreapp2.2\BOS.BUSINESS.AssemblyInfo.cs
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\BOSServer\BOS.BUSINESS\obj\Debug\netcoreapp2.2\BOS.BUSINESS.csproj.CopyComplete
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\BOSServer\BOS.BUSINESS\obj\Debug\netcoreapp2.2\BOS.BUSINESS.dll
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\BOSServer\BOS.BUSINESS\obj\Debug\netcoreapp2.2\BOS.BUSINESS.pdb

@@ -6,3 +6,11 @@ C:\Users\Admin\source\repos\ECMServer\ECM.DB\obj\Debug\netcoreapp2.2\ECM.DB.Asse
 C:\Users\Admin\source\repos\ECMServer\ECM.DB\obj\Debug\netcoreapp2.2\ECM.DB.AssemblyInfo.cs
 C:\Users\Admin\source\repos\ECMServer\ECM.DB\obj\Debug\netcoreapp2.2\ECM.DB.dll
 C:\Users\Admin\source\repos\ECMServer\ECM.DB\obj\Debug\netcoreapp2.2\ECM.DB.pdb
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\ECMServer\ECM.DB\bin\Debug\netcoreapp2.2\ECM.DB.deps.json
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\ECMServer\ECM.DB\bin\Debug\netcoreapp2.2\ECM.DB.dll
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\ECMServer\ECM.DB\bin\Debug\netcoreapp2.2\ECM.DB.pdb
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\ECMServer\ECM.DB\obj\Debug\netcoreapp2.2\ECM.DB.csprojAssemblyReference.cache
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\ECMServer\ECM.DB\obj\Debug\netcoreapp2.2\ECM.DB.AssemblyInfoInputs.cache
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\ECMServer\ECM.DB\obj\Debug\netcoreapp2.2\ECM.DB.AssemblyInfo.cs
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\ECMServer\ECM.DB\obj\Debug\netcoreapp2.2\ECM.DB.dll
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\ECMServer\ECM.DB\obj\Debug\netcoreapp2.2\ECM.DB.pdb

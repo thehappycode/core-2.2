@@ -1,0 +1,11 @@
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\HRMServer\HRM.BUSINESS\bin\Debug\netcoreapp2.2\HRM.BUSINESS.deps.json
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\HRMServer\HRM.BUSINESS\bin\Debug\netcoreapp2.2\HRM.BUSINESS.dll
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\HRMServer\HRM.BUSINESS\obj\Debug\netcoreapp2.2\HRM.BUSINESS.AssemblyInfoInputs.cache
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\HRMServer\HRM.BUSINESS\obj\Debug\netcoreapp2.2\HRM.BUSINESS.AssemblyInfo.cs
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\HRMServer\HRM.BUSINESS\obj\Debug\netcoreapp2.2\HRM.BUSINESS.csprojAssemblyReference.cache
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\HRMServer\HRM.BUSINESS\bin\Debug\netcoreapp2.2\HRM.BUSINESS.pdb
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\HRMServer\HRM.BUSINESS\bin\Debug\netcoreapp2.2\HRM.DB.dll
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\HRMServer\HRM.BUSINESS\bin\Debug\netcoreapp2.2\HRM.DB.pdb
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\HRMServer\HRM.BUSINESS\obj\Debug\netcoreapp2.2\HRM.BUSINESS.csproj.CopyComplete
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\HRMServer\HRM.BUSINESS\obj\Debug\netcoreapp2.2\HRM.BUSINESS.dll
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\HRMServer\HRM.BUSINESS\obj\Debug\netcoreapp2.2\HRM.BUSINESS.pdb

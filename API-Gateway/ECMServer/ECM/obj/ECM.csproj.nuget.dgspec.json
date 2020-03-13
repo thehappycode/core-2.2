@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\ECMServer\\ECM\\ECM.csproj": {}
+    "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\ECMServer\\ECM\\ECM.csproj": {}
   },
   "projects": {
-    "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\ECMServer\\ECM.BUSINESS\\ECM.BUSINESS.csproj": {
+    "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\ECMServer\\ECM.BUSINESS\\ECM.BUSINESS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\ECMServer\\ECM.BUSINESS\\ECM.BUSINESS.csproj",
+        "projectUniqueName": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\ECMServer\\ECM.BUSINESS\\ECM.BUSINESS.csproj",
         "projectName": "ECM.BUSINESS",
-        "projectPath": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\ECMServer\\ECM.BUSINESS\\ECM.BUSINESS.csproj",
+        "projectPath": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\ECMServer\\ECM.BUSINESS\\ECM.BUSINESS.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\ECMServer\\ECM.BUSINESS\\obj\\",
+        "outputPath": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\ECMServer\\ECM.BUSINESS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\ECMServer\\ECM.DB\\ECM.DB.csproj": {
-                "projectPath": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\ECMServer\\ECM.DB\\ECM.DB.csproj"
+              "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\ECMServer\\ECM.DB\\ECM.DB.csproj": {
+                "projectPath": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\ECMServer\\ECM.DB\\ECM.DB.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\ECMServer\\ECM.DB\\ECM.DB.csproj": {
+    "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\ECMServer\\ECM.DB\\ECM.DB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\ECMServer\\ECM.DB\\ECM.DB.csproj",
+        "projectUniqueName": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\ECMServer\\ECM.DB\\ECM.DB.csproj",
         "projectName": "ECM.DB",
-        "projectPath": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\ECMServer\\ECM.DB\\ECM.DB.csproj",
+        "projectPath": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\ECMServer\\ECM.DB\\ECM.DB.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\ECMServer\\ECM.DB\\obj\\",
+        "outputPath": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\ECMServer\\ECM.DB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -144,14 +144,14 @@
         }
       }
     },
-    "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\ECMServer\\ECM\\ECM.csproj": {
+    "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\ECMServer\\ECM\\ECM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\ECMServer\\ECM\\ECM.csproj",
+        "projectUniqueName": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\ECMServer\\ECM\\ECM.csproj",
         "projectName": "ECM",
-        "projectPath": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\ECMServer\\ECM\\ECM.csproj",
+        "projectPath": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\ECMServer\\ECM\\ECM.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\ECMServer\\ECM\\obj\\",
+        "outputPath": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\ECMServer\\ECM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -170,8 +170,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\ECMServer\\ECM.BUSINESS\\ECM.BUSINESS.csproj": {
-                "projectPath": "E:\\WORK\\Source\\Research\\backend\\API-Gateway\\ECMServer\\ECM.BUSINESS\\ECM.BUSINESS.csproj"
+              "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\ECMServer\\ECM.BUSINESS\\ECM.BUSINESS.csproj": {
+                "projectPath": "E:\\WORK\\Source\\Research\\backend\\core\\core-2.2\\API-Gateway\\ECMServer\\ECM.BUSINESS\\ECM.BUSINESS.csproj"
               }
             }
           }
@@ -201,6 +201,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
             }
           },
           "imports": [

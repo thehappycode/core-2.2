@@ -9,7 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using ECM.DB.AutoMapper;
-
+using ECM.BUSINESS.Helper;
 namespace ECM
 {
     public class Startup
@@ -24,6 +24,11 @@ namespace ECM
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // applicationSetting Configurataion.
+            var applicationSetting = new ApplicationSetting();
+            Configuration.Bind("ApplicationSetting", applicationSetting);
+            services.AddSingleton(applicationSetting);
+
             // JWT Configurations
             services.AddAuthentication
                 (JwtBearerDefaults.AuthenticationScheme)
@@ -35,9 +40,9 @@ namespace ECM
                         ValidateAudience = true,
                         ValidateLifetime = true,
                         ValidateIssuerSigningKey = true,
-                        ValidIssuer = Configuration["Jwt:Issuer"],
-                        ValidAudience = Configuration["Jwt:Audience"],
-                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:Key"])),
+                        ValidIssuer = applicationSetting.Jwt.Issuer,
+                        ValidAudience = applicationSetting.Jwt.Audience,
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(applicationSetting.Jwt.Key)),
                         ClockSkew = TimeSpan.Zero, //the default for this setting is 5 minutes
                         RequireExpirationTime = true
                     };

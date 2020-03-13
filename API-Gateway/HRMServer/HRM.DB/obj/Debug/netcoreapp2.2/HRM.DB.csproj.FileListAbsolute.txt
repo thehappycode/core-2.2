@@ -1,0 +1,8 @@
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\HRMServer\HRM.DB\bin\Debug\netcoreapp2.2\HRM.DB.deps.json
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\HRMServer\HRM.DB\bin\Debug\netcoreapp2.2\HRM.DB.dll
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\HRMServer\HRM.DB\obj\Debug\netcoreapp2.2\HRM.DB.csprojAssemblyReference.cache
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\HRMServer\HRM.DB\obj\Debug\netcoreapp2.2\HRM.DB.AssemblyInfoInputs.cache
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\HRMServer\HRM.DB\obj\Debug\netcoreapp2.2\HRM.DB.AssemblyInfo.cs
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\HRMServer\HRM.DB\bin\Debug\netcoreapp2.2\HRM.DB.pdb
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\HRMServer\HRM.DB\obj\Debug\netcoreapp2.2\HRM.DB.dll
+E:\WORK\Source\Research\backend\core\core-2.2\API-Gateway\HRMServer\HRM.DB\obj\Debug\netcoreapp2.2\HRM.DB.pdb

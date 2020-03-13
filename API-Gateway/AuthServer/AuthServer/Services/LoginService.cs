@@ -1,4 +1,6 @@
 ﻿using AuthServer.Entities;
+using AuthServer.Helper;
+using AuthServer.Infrastructures;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
@@ -12,14 +14,10 @@ using System.Text;
 
 namespace AuthServer.Services
 {
-    public class LoginService
+    public class LoginService : ILogin
     {
-        private readonly IConfiguration _iconfig;
-        public LoginService(IConfiguration iconfig)
-        {
-            _iconfig = iconfig;
-        }
-        public dynamic Login(ISession ss, string email, string password)
+        TokenService _tokenService = new TokenService();
+        public dynamic Login(ISession ss, string email, string password, ApplicationSetting _applicationSetting)
         {
             dynamic result = null;
             var employee = ss.Query<Employee>().SingleOrDefault(p => p.Email == email && p.Status);
@@ -27,49 +25,14 @@ namespace AuthServer.Services
             {
                 var claims = new List<Claim>
                 {
-                    new Claim(JwtRegisteredClaimNames.Sub, _iconfig["Jwt:Sub"].ToString()),
-                    new Claim(JwtRegisteredClaimNames.Email, _iconfig["Jwt:Email"].ToString()),
-                    new Claim(JwtRegisteredClaimNames.Website, _iconfig["Jwt:Website"].ToString()),
+                    new Claim(JwtRegisteredClaimNames.Sub, _applicationSetting.Jwt.Sub),
+                    new Claim(JwtRegisteredClaimNames.Email, _applicationSetting.Jwt.Email),
+                    new Claim(JwtRegisteredClaimNames.Website, _applicationSetting.Jwt.Website),
                     new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
                     new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToUniversalTime().ToString(),ClaimValueTypes.Integer64),
-                    new Claim("employeeInfo", JsonConvert.SerializeObject(employee)),
+                    new Claim("employeeInfo", JsonConvert.SerializeObject(new { employee.Id, employee.Name, employee.Email, employee.IsLeader, employee.PermissionGroupId})),
                 };
-                result = GenerateJSONWebToken(claims);
-            }
-            return result;
-        }
-        public string GenerateJSONWebToken(List<Claim> claims)
-        {
-            var result = string.Empty;
-            try
-            {
-                var tokenValidationParameters = new TokenValidationParameters
-                {
-                    ValidateIssuer = true,
-                    ValidateAudience = true,
-                    ValidateLifetime = true,
-                    ValidateIssuerSigningKey = true,
-                    ValidIssuer = _iconfig["Jwt:Issuer"],
-                    ValidAudience = _iconfig["Jwt:Audience"],
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_iconfig["Jwt:Key"])),
-                    ClockSkew = TimeSpan.Zero, //the default for this setting is 5 minutes
-                    RequireExpirationTime = true
-                };
-                var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_iconfig["Jwt:Key"]));
-                var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
-                var token = new JwtSecurityToken(
-                    issuer: _iconfig["Jwt:Issuer"],
-                    audience:_iconfig["Jwt:Audience"],
-                    claims,
-                    notBefore: DateTime.UtcNow,
-                    expires: DateTime.UtcNow.AddMinutes(5),
-                    signingCredentials: credentials
-                );
-                result = new JwtSecurityTokenHandler().WriteToken(token);
-            }
-            catch (Exception ex)
-            {
-                result = ex.Message;
+                result = _tokenService.GenerateJSONWebToken(claims, _applicationSetting);
             }
             return result;
         }
